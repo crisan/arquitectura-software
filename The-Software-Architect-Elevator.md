@@ -7,7 +7,8 @@
 
 ## Conceptos ##
 
-### Shift-Left Testing ###: "Shift-Left Testing" (o "Pruebas Desplazadas a la Izquierda") es una filosofía y una práctica de desarrollo de software que consiste en involucrar las pruebas lo más temprano posible en el ciclo de vida del desarrollo.
+### Shift-Left Testing ###: 
+("Pruebas Desplazadas a la Izquierda") es una filosofía y una práctica de desarrollo de software que consiste en involucrar las pruebas lo más temprano posible en el ciclo de vida del desarrollo.
 
 Beneficios Clave del Shift-Left
 - Reduce Costos: Encontrar y arreglar un bug en la fase de Requisitos es 100 veces más barato que arreglarlo cuando ya está en Producción.
