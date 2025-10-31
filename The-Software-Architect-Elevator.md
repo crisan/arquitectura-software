@@ -6,6 +6,7 @@
 - Repite una vez más, que en vez de hacer calidad se debe automatizar la calidad.
 - **Fred Brooks** ya documentó hace cuatro décadas que agregar personas requiere capacitación y aumenta la sobrecarga de comunicación, lo que ralentiza un proyecto. Además, los proyectos grandes a menudo se detienen por completo debido a la excesiva complejidad. Agregar más recursos probablemente aumente la complejidad, agravando el problema.
 Por lo tanto si quiero acelerar un proyecto **buscaré reducir la fricción en lugar de añadir más recursos**, ej: Trabajo remoto para lograr menos desgaste del equipo.
+- **Aceptar cambios tardíos es un principio clave del desarrollo ágil**, desmintiendo esta creencia común. Se ilustra mejor con la observación de Mary Poppendieck de que "un cambio tardío en los requisitos es una ventaja competitiva".
 
 ## Conceptos ##
 
