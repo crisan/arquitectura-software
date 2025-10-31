@@ -5,7 +5,7 @@
 - Desde una perspectiva operativa, los sistemas que no reciben mantenimiento se deterioran y, por ejemplo usan librerías o SO que ponen en riesgo la seguridad (Cap 26 - Dissecting IT Slogans)
 - Repite una vez más, que en vez de hacer calidad se debe automatizar la calidad.
 - **Fred Brooks** ya documentó hace cuatro décadas que agregar personas requiere capacitación y aumenta la sobrecarga de comunicación, lo que ralentiza un proyecto. Además, los proyectos grandes a menudo se detienen por completo debido a la excesiva complejidad. Agregar más recursos probablemente aumente la complejidad, agravando el problema.
-Por lo tanto si quiero acelerar un proyecto buscaré reducir la fricción en lugar de añadir más recursos, ej: Trabajo remoto para lograr menos desgaste del equipo.
+Por lo tanto si quiero acelerar un proyecto **buscaré reducir la fricción en lugar de añadir más recursos**, ej: Trabajo remoto para lograr menos desgaste del equipo.
 
 ## Conceptos ##
 
