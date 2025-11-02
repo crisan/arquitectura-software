@@ -38,7 +38,7 @@ Dar autonomia en la toma de decisiones a los equipos en realidad aumenta el cont
 - Feedback: Expresar las consecuencias de las decisiones mal tomadas.
 - Estrategia: Se necesitan tener objetivos específicos; por ejemplo, generar ingresos o medir la participación de los usuarios. Estos objetivos no son instricciones específicas, sino metas generales que se deben conseguir.
 
-<img width="617" height="470" alt="image" src="https://github.com/user-attachments/assets/b78a6b89-f3d1-4484-b53f-2ec4d5ac9e97" />
+<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/b78a6b89-f3d1-4484-b53f-2ec4d5ac9e97" />
 
 - 
 
