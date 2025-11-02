@@ -34,9 +34,12 @@ El objetivo no es cambiar las creencias de todos, sino identificar y eliminar lo
 ### Control real: Autonomia ###
 Dar autonomia en la toma de decisiones a los equipos en realidad aumenta el control, ya que reocnoces las deficiencias y evita operar en una ilusión. Pero cuidado, muchas organizaciones equiparan la autonomía con que "cada uno haga lo que cree mejor". Lamentablemente eso no es autonomia, sino anarquia: los anarquistas hacen lo que creen correcto. 
 ¿Como pueden las organizaciones TI a gran escala establecer autonomía sin caer en la anarquia?
-- Habilitacion: Hay que facilitar que las personas realicen su trabajo. La excesiva fricción anula la autonomía. Algunos mecanismos que friccionan son: reuniones de RRHH, permisos para aprovaciones, etc.
+- Habilitacion: Hay que facilitar que las personas realicen su trabajo. La excesiva fricción anula la autonomía. Algunos mecanismos que friccionan son: reuniones de RRHH, permisos para aprobaciones, etc.
 - Feedback: Expresar las consecuencias de las decisiones mal tomadas.
 - Estrategia: Se necesitan tener objetivos específicos; por ejemplo, generar ingresos o medir la participación de los usuarios. Estos objetivos no son instricciones específicas, sino metas generales que se deben conseguir.
+
+<img width="617" height="470" alt="image" src="https://github.com/user-attachments/assets/b78a6b89-f3d1-4484-b53f-2ec4d5ac9e97" />
+
 - 
 
 
