@@ -19,4 +19,9 @@ Beneficios Clave del Shift-Left
 - Mejora la Calidad: El equipo construye la calidad "en el sistema" desde el principio, en lugar de "inspeccionarla" al final.
 - Empodera al Equipo: Los desarrolladores se sienten más dueños del producto y los QAs se convierten en consultores de calidad estratégicos, en lugar de solo "buscadores de errores".
 
+## Capitulo 23 ##
+
+### Reprogramming the Organization ###
+
+
 
