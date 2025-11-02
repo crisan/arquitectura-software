@@ -22,6 +22,8 @@ Beneficios Clave del Shift-Left
 ## Capitulo 23 ##
 
 ### Reprogramming the Organization ###
+El objetivo no es cambiar las creencias de todos, sino que identificar y eliminar el cambio que se intenta impulsar. Revertir demasiadas creencias solo genera inseguridad y fricción.
+
 
 
 
