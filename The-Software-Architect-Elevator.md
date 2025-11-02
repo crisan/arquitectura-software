@@ -19,10 +19,28 @@ Beneficios Clave del Shift-Left
 - Mejora la Calidad: El equipo construye la calidad "en el sistema" desde el principio, en lugar de "inspeccionarla" al final.
 - Empodera al Equipo: Los desarrolladores se sienten más dueños del producto y los QAs se convierten en consultores de calidad estratégicos, en lugar de solo "buscadores de errores".
 
-## Capitulo 23 ##
+## Capitulo 26 ##
 
 ### Reprogramming the Organization ###
-El objetivo no es cambiar las creencias de todos, sino que identificar y eliminar el cambio que se intenta impulsar. Revertir demasiadas creencias solo genera inseguridad y fricción.
+El objetivo no es cambiar las creencias de todos, sino identificar y eliminar los obstaculos del cambio que intentamos impulsar. Revertir demasiadas creencias solo genera inseguridad y fricción.
+
+## Capitulo 26 - El control es una ilusión ##
+
+### Problemas hacia arriba ###
+- Projectos Sandia: El estado que se presenta es verde pero internamente el proyecto está al rojo vivo.
+- Las decisiones se basan en datos reales de los usuarios, no en proyecciones ni promesas.
+- El mando por misión o "directiva" sigue siendo la mejor forma de liderar cambios. Comprender el propósito de la misión permitia a las tropas apdatarse a circunstancias imprevistas sin necesidad de informar al mando central. Esto ahorraba un tiempo valioso y propiciaba mejores decisiones en el contexto local.
+
+### Control real: Autonomia ###
+Dar autonomia en la toma de decisiones a los equipos en realidad aumenta el control, ya que reocnoces las deficiencias y evita operar en una ilusión. Pero cuidado, muchas organizaciones equiparan la autonomía con que "cada uno haga lo que cree mejor". Lamentablemente eso no es autonomia, sino anarquia: los anarquistas hacen lo que creen correcto. 
+¿Como pueden las organizaciones TI a gran escala establecer autonomía sin caer en la anarquia?
+- Habilitacion: Hay que facilitar que las personas realicen su trabajo. La excesiva fricción anula la autonomía. Algunos mecanismos que friccionan son: reuniones de RRHH, permisos para aprovaciones, etc.
+- Feedback: Expresar las consecuencias de las decisiones mal tomadas.
+- Estrategia: Se necesitan tener objetivos específicos; por ejemplo, generar ingresos o medir la participación de los usuarios. Estos objetivos no son instricciones específicas, sino metas generales que se deben conseguir.
+- 
+
+
+
 
 
 
