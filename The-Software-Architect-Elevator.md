@@ -7,6 +7,10 @@
 - **Fred Brooks** ya documentó hace cuatro décadas que agregar personas requiere capacitación y aumenta la sobrecarga de comunicación, lo que ralentiza un proyecto. Además, los proyectos grandes a menudo se detienen por completo debido a la excesiva complejidad. Agregar más recursos probablemente aumente la complejidad, agravando el problema.
 Por lo tanto si quiero acelerar un proyecto **buscaré reducir la fricción en lugar de añadir más recursos**, ej: Trabajo remoto para lograr menos desgaste del equipo.
 - **Aceptar cambios tardíos es un principio clave del desarrollo ágil**, desmintiendo esta creencia común. Se ilustra mejor con la observación de Mary Poppendieck de que "un cambio tardío en los requisitos es una ventaja competitiva".
+- Con mercados negros no hay igualdad de herramientas para desarrollar algo de principio a fin.
+
+### Comentarios personales ###
+- En 5 de 10 empresas en las que he trabajado hay un gran mercado negro que claramente invisibiliza la desigualdad de condiciones.
 
 ## Conceptos ##
 
@@ -24,7 +28,7 @@ Beneficios Clave del Shift-Left
 ### Reprogramming the Organization ###
 El objetivo no es cambiar las creencias de todos, sino identificar y eliminar los obstaculos del cambio que intentamos impulsar. Revertir demasiadas creencias solo genera inseguridad y fricción.
 
-## Capitulo 26 - El control es una ilusión ##
+## Capitulo 28 - El control es una ilusión ##
 
 ### Problemas hacia arriba ###
 - Projectos Sandia: El estado que se presenta es verde pero internamente el proyecto está al rojo vivo.
@@ -37,10 +41,21 @@ Dar autonomia en la toma de decisiones a los equipos en realidad aumenta el cont
 - Habilitacion: Hay que facilitar que las personas realicen su trabajo. La excesiva fricción anula la autonomía. Algunos mecanismos que friccionan son: reuniones de RRHH, permisos para aprobaciones, etc.
 - Feedback: Expresar las consecuencias de las decisiones mal tomadas.
 - Estrategia: Se necesitan tener objetivos específicos; por ejemplo, generar ingresos o medir la participación de los usuarios. Estos objetivos no son instricciones específicas, sino metas generales que se deben conseguir.
+- las comunidades pueden ser agentes de cambio útiles, pero solo si cuentan con empoderamiento y objetivos claros.
 
-<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/b78a6b89-f3d1-4484-b53f-2ec4d5ac9e97" />
+## Capitulo 29 - Los mercados negros sin ineficientes (Buen tema) ##
+Este capitulo comenta los problemas que trae el mercado negro en las empresa. ¿Cual es el mercado negro?, son los favores entre personas sin seguir los procesos. Esto implica que los procesos no están documentados, por lo tanto, el conocimiento solo está en la persona que lo realiza. 
+- El mercado negro no permite la democrotazicación de los procesos.
 
-- 
+### Vencer al mercado negro ###
+- No se puede sacar el mercado negro poniendo más control ni gobernanza.
+- Para eliminar el mercado negro se deben eficientar los procesos actuales y estar bien documentados.
+- Hay que ofrecer un mercado legal que funcione correctamente.
+
+
+
+
+
 
 
 
