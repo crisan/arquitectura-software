@@ -11,6 +11,7 @@ Por lo tanto si quiero acelerar un proyecto **buscaré reducir la fricción en l
 
 ### Comentarios personales ###
 - En 5 de 10 empresas en las que he trabajado hay un gran mercado negro que claramente invisibiliza la desigualdad de condiciones.
+- Revisar GTD (Getting Things Done).
 
 ## Conceptos ##
 
@@ -43,7 +44,7 @@ Dar autonomia en la toma de decisiones a los equipos en realidad aumenta el cont
 - Estrategia: Se necesitan tener objetivos específicos; por ejemplo, generar ingresos o medir la participación de los usuarios. Estos objetivos no son instricciones específicas, sino metas generales que se deben conseguir.
 - las comunidades pueden ser agentes de cambio útiles, pero solo si cuentan con empoderamiento y objetivos claros.
 
-## Capitulo 29 - Los mercados negros sin ineficientes (Buen tema) ##
+## Capitulo 29 - Los mercados negros son ineficientes (Buen tema) ##
 Este capitulo comenta los problemas que trae el mercado negro en las empresa. ¿Cual es el mercado negro?, son los favores entre personas sin seguir los procesos. Esto implica que los procesos no están documentados, por lo tanto, el conocimiento solo está en la persona que lo realiza. 
 - El mercado negro no permite la democrotazicación de los procesos.
 
@@ -51,6 +52,11 @@ Este capitulo comenta los problemas que trae el mercado negro en las empresa. ¿
 - No se puede sacar el mercado negro poniendo más control ni gobernanza.
 - Para eliminar el mercado negro se deben eficientar los procesos actuales y estar bien documentados.
 - Hay que ofrecer un mercado legal que funcione correctamente.
+## Capitulo 30 - Escalando una organización ##
+
+### Evite los puntos de sincronización: las reuniones no son escalables ###
+
+
 
 
 
