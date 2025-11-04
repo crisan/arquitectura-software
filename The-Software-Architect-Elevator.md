@@ -12,6 +12,7 @@ Por lo tanto si quiero acelerar un proyecto **buscaré reducir la fricción en l
 ### Comentarios personales ###
 - En 5 de 10 empresas en las que he trabajado hay un gran mercado negro que claramente invisibiliza la desigualdad de condiciones.
 - Revisar GTD (Getting Things Done).
+- El trabajo por objetivo/misión es mejor que el trabajo por ordenes
 
 ## Conceptos ##
 
