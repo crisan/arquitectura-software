@@ -52,7 +52,9 @@ Este capitulo comenta los problemas que trae el mercado negro en las empresa. ¿
 - No se puede sacar el mercado negro poniendo más control ni gobernanza.
 - Para eliminar el mercado negro se deben eficientar los procesos actuales y estar bien documentados.
 - Hay que ofrecer un mercado legal que funcione correctamente.
+- 
 ## Capitulo 30 - Escalando una organización ##
+How to Scale an Organization? The Same Way You Scale a System!
 
 ### Evite los puntos de sincronización: las reuniones no son escalables ###
 
