@@ -56,8 +56,15 @@ Este capitulo comenta los problemas que trae el mercado negro en las empresa. ¿
 - 
 ## Capitulo 30 - Escalando una organización ##
 How to Scale an Organization? The Same Way You Scale a System!
+Evite los puntos de sincronización: las reuniones no son escalables
 
-### Evite los puntos de sincronización: las reuniones no son escalables ###
+## Capitulo 31 - El caos lento no es orden ##
+
+### Fast vs Agile ###
+Los métodos ágile permiten corregir el rumbo sobre la marcha. *La agilidad te lleva rápidamente a donde necesitas estar*. Correr en la dirección equivocada a toda velocidad no es un método, sino una insensatez.
+
+
+
 
 
 
