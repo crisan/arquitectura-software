@@ -61,7 +61,23 @@ Evite los puntos de sincronización: las reuniones no son escalables
 ## Capitulo 31 - El caos lento no es orden ##
 
 ### Fast vs Agile ###
-Los métodos ágile permiten corregir el rumbo sobre la marcha. *La agilidad te lleva rápidamente a donde necesitas estar*. Correr en la dirección equivocada a toda velocidad no es un método, sino una insensatez.
+Los métodos ágile permiten corregir el rumbo sobre la marcha. **La agilidad te lleva rápidamente a donde necesitas estar**. Correr en la dirección equivocada a toda velocidad no es un método, sino una insensatez.
+
+### Fast and Good ###
+A continuación se describen los atributos necesarios para un desarrollo e implementación de software rápido.
+- Velocidad: La velocidad de desarrollo garantiza que puedas realizar cambios en código rapidamente. Si la base de código está plagada de deuda técnica, como duplicación, perderas velocidad inmediatamente.
+- Confianza: Una vez que realices un cambio en el código, debes tener confianza en la corrección de tu código, por ejemplo, a través de revisiones de código, pruebas automatizadas rigurosas y lanzamientos pequeños e incrementales. Si te falta confianza, dudarás y no podrás ser rápido.
+- Repetible: El despliegue debe ser reproducible, generalmente mediante una automatización del 100%. Toda tu creatividad debe dedicarse a desarrollar excelentes funcionalidades para tus usuarios, no a hacer que cada despliegue funcione. Una vez que decidas desplegar, debes depender de que el despliegue funcione exactamente como lo hizo en las últimas 100 ocasiones.
+- Elástico: Tu entorno de ejecución debe ser elástico porque una vez que a tus usuarios les guste lo que construiste, debes poder manejar el tráfico.
+- Feedback: Necesitas retroalimentación del monitoreo para asegurarte de poder detectar problemas de producción temprano y para aprender lo que tus usuarios necesitan. Si no sabes en qué dirección ir, moverte más rápido no ayuda.
+- Seguridad: Y por último, pero no menos importante, necesitas proteger tu entorno de ejecución contra ataques accidentales y maliciosos, especialmente al implementar nuevas funciones con frecuencia, que pueden contener, o depender de bibliotecas que contengan vulnerabilidades de seguridad.
+
+### La salida ###
+
+Muchas organizaciones tradicionales pero exitosas simplemente tienen demasiado dinero (Capítulo 38) como para realmente notar o preocuparse por ello. Primero deben darse cuenta de que el mundo ha cambiado de perseguir economías de escala a perseguir economías de velocidad (Capítulo 35). La velocidad es una gran fuerza impulsora para la automatización y la disciplina. Para la mayoría de las situaciones, además de la escalabilidad dinámica, está bien si el aprovisionamiento de un servidor toma un día. Pero si tarda más de 10 minutos, sabes que habrá la tentación de realizar una parte de ello manualmente. Y ese es el comienzo peligroso de un caos lento. En cambio, deja que el software domine el mundo (Capítulo 14) y no envíes a los humanos a hacer el trabajo de una máquina (Capítulo 13). Serás rápido y disciplinado.
+
+
+
 
 
 
