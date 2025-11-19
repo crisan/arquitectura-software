@@ -8,6 +8,9 @@
 Por lo tanto si quiero acelerar un proyecto **buscaré reducir la fricción en lugar de añadir más recursos**, ej: Trabajo remoto para lograr menos desgaste del equipo.
 - **Aceptar cambios tardíos es un principio clave del desarrollo ágil**, desmintiendo esta creencia común. Se ilustra mejor con la observación de Mary Poppendieck de que "un cambio tardío en los requisitos es una ventaja competitiva".
 - Con mercados negros no hay igualdad de herramientas para desarrollar algo de principio a fin.
+- Se recomienda la velocidad por sobre la eficiencia (esto apoya más a que: buscar la eficiencia del trabajo en equipo es posterior a alcanzar la menor velocidad posible de entrega. A negocio le importa la rápidez de la feature en producción).
+- No mandar a los humanos a hacer las tareas de las máquinas (software)
+- 
 
 ### Comentarios personales ###
 - En 5 de 10 empresas en las que he trabajado hay un gran mercado negro que claramente invisibiliza la desigualdad de condiciones.
@@ -75,6 +78,21 @@ A continuación se describen los atributos necesarios para un desarrollo e imple
 ### La salida ###
 
 Muchas organizaciones tradicionales pero exitosas simplemente tienen demasiado dinero (Capítulo 38) como para realmente notar o preocuparse por ello. Primero deben darse cuenta de que el mundo ha cambiado de perseguir economías de escala a perseguir economías de velocidad (Capítulo 35). La velocidad es una gran fuerza impulsora para la automatización y la disciplina. Para la mayoría de las situaciones, además de la escalabilidad dinámica, está bien si el aprovisionamiento de un servidor toma un día. Pero si tarda más de 10 minutos, sabes que habrá la tentación de realizar una parte de ello manualmente. Y ese es el comienzo peligroso de un caos lento. En cambio, deja que el software domine el mundo (Capítulo 14) y no envíes a los humanos a hacer el trabajo de una máquina (Capítulo 13). Serás rápido y disciplinado.
+
+## Capitulo 34 - Liderando el cambio ##
+-- La isla de la cordura en la desesperación --
+## Capitulo 35 - Economías de velocidad ##
+-- La muerte por eficiencia es lenta y dolorosa --
+### ¿Como hacer el cambio? ###
+Cambiar de un pensamiento basado en la eficiencia a uno basado en la velocidad puede ser difícil para las organizaciones: después de todo, ¡es menos eficiente! En la mente de la mayoría de las personas, ser menos eficiente se traduce en desperdiciar dinero. Además, la gente inactiva es más visible que el daño causado por las oportunidades de mercado perdidas.
+Por lo general, este cambio de actitud ocurre solo cuando se ve a TI como el motor de las oportunidades de negocio, en lugar de como un centro de costos. Mientras TI corporativa esté atrapada en un ciclo de reducción de costos y aumento de la eficiencia, prevalecerán las economías de escala, lo que da a los gigantes digitales una ventaja cada vez mayor sobre las empresas tradicionales que sueñan con convertirse en digitales pero no pueden deshacerse de sus antiguos hábitos.
+## Capitulo 36 - El bucle infinito ##
+-- A veces correr en círculos puede ser productivo --
+### Pivoteando el pastel de capas ###
+Para acelerar el motor de retroalimentación, necesitas girar la pirámide organizacional y formar equipos que asuman la responsabilidad completa desde el concepto del producto hasta la implementación técnica, las operaciones y el perfeccionamiento. A menudo, este enfoque recibe etiquetas como “tribus”, “equipos de funciones” o “DevOps”, que se asocian con una actitud de “si lo construyes, lo gestionas”. Hacer esto no solo proporciona un bucle de retroalimentación directo a los desarrolladores sobre la calidad de su producto (las alertas que suenan en medio de la noche son una forma muy inmediata de retroalimentación), sino que también permite escalar la organización (Capítulo 30) al eliminar puntos de sincronización innecesarios: todas las decisiones relevantes pueden tomarse dentro del equipo del proyecto.
+## Capitulo 37 - No puedes fingirlo ##
+-- Para ser digital por fuera, primero necesitas ser digital por dentro --
+
 
 
 
