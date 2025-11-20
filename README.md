@@ -3,8 +3,7 @@
 Repositorio creado para documentar el conocimiento.
 
 ### Libros TI ###
-- Designing Intensive Applications
-- [The Software Architect Elevator](https://github.com/crisan/arquitectura-software/blob/main/The-Software-Architect-Elevator.md). Gregor Hohpe
+- [The Software Architect Elevator](https://github.com/crisan/arquitectura-software/blob/main/The-Software-Architect-Elevator.md). Gregor Hohpe (2025)
 - Fundamentals of Software Architecture. Mark Richards y Neal Ford (2025)
 - The Software Engineer's Guidebook. Gergely Orosz (2025)
 - Remote. Jason Fried y David Heinemeier (2025) 
@@ -16,6 +15,11 @@ Repositorio creado para documentar el conocimiento.
 - Ingeniera de Software en Google. Titus Winters, Tom Manshreck y Hyrum Wright (2024)
 - Modern CTO. Joel Beasley (2024)
 - El mejor negocio eres tu. Reid Hoffman y Ben Casnocha (2018)
+
+Para el 2026:
+-  Designing Intensive Applications
+-  Continuous Delivery
+-  Enterprise Integration Patterns
 
 Otros libros:
 - Como hacer que te pasen cosas buenas. Mariana Rojas Estapé (2023)
