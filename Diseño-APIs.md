@@ -12,6 +12,17 @@ $query: Permite hacer operaciones más complejas como in, OR... todo esto utiliz
 - Openapi2Postman
 
 # Tipos de APIs: 
-- Api interna 
-  - Consumidor: Tu propio equipo
-  - ASASA
+- API interna 
+  - Consumidor: Tu propio equipo.
+  - Cambios: Frecuentes y rápidos.
+  - Documentanción: A veces escasa o informal.
+  - Seguridad: Cookies, Sesiones. JWT.
+  - Objetivo: Hacer funcionar tus apps.
+    
+- API externa
+  - Consumidor: Terceros / Clientes.
+  * Cambios: Muy lentos con aviso previo.
+  + Documentanción: Crítica, publica y detallada.
+  - Seguridad: API Keys, OAUTH, Client Secrets
+  - Objetivo: Integración y negocio
+
