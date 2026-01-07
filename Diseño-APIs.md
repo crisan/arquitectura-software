@@ -8,8 +8,9 @@ $page, $page_size, $order_by: Estos parametros permiten paginar las respuestas, 
 
 $query: Permite hacer operaciones más complejas como in, OR... todo esto utilizando el lenguajes de consultas de MongoDB.
 
-# Herramientras 
+# Herramientas
 - Openapi2Postman
+-  [Openapi](https://www.openapis.org/what-is-openapi)
 
 # Tipos de APIs
 - API interna 
@@ -27,8 +28,12 @@ $query: Permite hacer operaciones más complejas como in, OR... todo esto utiliz
   - Objetivo: Integración y negocio
 
 # Arquitectura por capas
-  1. APIs de canal o experiencia
-  2. APIs de negocio o proceso: Son el cerebro o la lógica. Estas APIs toman los datos de las APIs de productos o sistemas, los combinan y aplican reglas de negocio para cumplir un proceso específico.
+  1. APIs de canal o experiencia: Son la cara visible. Están diseñadas específicamente para la aplicación o dispositivo con el que interactua el usuario final (App móvil, Web, Reloj inteligente, etc.)
+     - **Función**: Reconfigurar y presentar los datos de forma exacta en que ese canal específico los necesita.
+     - **Características**: Cambian frecuentemente según las necesidades de la interfaz de usuario (UX/UI).
+     - **Ejemplo**: Una API para la app móvil que entrega el saldo y los últimos 3 movimientos en formato JSON ligero para que cargue rápido en el celular.
+    
+  3. APIs de negocio o proceso: Son el cerebro o la lógica. Estas APIs toman los datos de las APIs de productos o sistemas, los combinan y aplican reglas de negocio para cumplir un proceso específico.
      - **Función**: Orquestar y agregar datos. Evitan que las capas superiores tengan que entender la complejidad de los sistemas base.
      - **Características**: Son independientes de la fuente de datos y del canal. Representan procesos empresariales.
      - **Ejemplo**: Una API de "Incorporación de Cliente" que, en una sola llamada verifica la identidad (usando un sistema), crea la cuenta (usando otro) y envía un correo de bienvenida (usando un tercero).
