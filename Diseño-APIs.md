@@ -11,6 +11,7 @@ $query: Permite hacer operaciones más complejas como in, OR... todo esto utiliz
 # Herramientas
 - Openapi2Postman
 -  [Openapi](https://www.openapis.org/what-is-openapi)
+-  [Buenas prácticas](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
 # Tipos de APIs
 - API interna 
