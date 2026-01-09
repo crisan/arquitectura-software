@@ -44,5 +44,12 @@ $query: Permite hacer operaciones más complejas como in, OR... todo esto utiliz
      - **Características**: Son estables, cambian poco. Se preocupan por la seguridad y la conexión con sistemas complejos.
      - **Ejemplo**: Una API que simplemente consulta el saldo de un Mainframe bancario o una API que busca el stock de un zapato en el sistema de inventario.
 
-## 
+# Buenas prácticas
+1. Versionado
+   - Cabeceras custom: X-API-V1
+   - En la URL: https://api.dominio.com/api-clientes/v1/productos
+2. Recursos
+   - Path sencillos: No más de 3 niveles, /clientes/{clienteId}/proyectos/{proyecotId}/acciones/{accionId}
+   - Nombrado de recursos: Sustantivos en plural y siempre minúsculas, ej: clientes
+   - Evitar verbos en los recursos
 
