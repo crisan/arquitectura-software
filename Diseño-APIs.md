@@ -52,4 +52,27 @@ $query: Permite hacer operaciones más complejas como in, OR... todo esto utiliz
    - Path sencillos: No más de 3 niveles, /clientes/{clienteId}/proyectos/{proyecotId}/acciones/{accionId}
    - Nombrado de recursos: Sustantivos en plural y siempre minúsculas, ej: clientes
    - Evitar verbos en los recursos
+3. Jerarquia de recursos
+   - /clientes/{clienteId}/cuentas
+   - /clientes/{clienteId}/direcciones
+4. Path Param
+   - No juntar dos path param, se pierde la claridad del uso de cada uno, ej: api.dominio.com/api/v1/cliente/12/4 -> api.dominio.com/api/v1/cliente/12/cuenta/4
+   - Se recomienda un UUID
+5. Query Param: Objetivo único, filtrar información
+   - Usar solo con métodos GET
+   - Filtrar solo por campos presentes en la entidad de recurso, ej: /clientes/{clienteId}/report?format=PDF
+   - No debe cambiar el estado de la base de datos
+
+# Normas mínimas para APIs corporativas
+  * Politicas de nombrado de:
+    * Recursos
+    * Parámetros
+    * Campos E/S
+  * Políticas de formatos y excepciones
+  * Tamaño máximo de archivos
+  * Políticas de seguridad y control de acceso
+  * Políticas de versionamiento
+  * Respuesta estandar corporativa
+  * Módelo común de errores
+  
 
