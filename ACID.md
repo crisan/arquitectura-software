@@ -12,7 +12,7 @@ Estos principios garantizan que las transacciones se ejecuten completamente, sin
 
 ## Atomicidad
 
-La atomicidad garantiza que una transacción se trate como una **unidad única e indivisible**. Todas las operaciones de una transacción deben completarse o no completarse. Si falla cualquier parte, el sistema hace **rollback** de toda la transacción, garantizando que no existan actualizaciones parciales.
+La atomicidad garantiza que una transacción se trate como una **unidad única e indivisible**. Todas las operaciones de una transacción deben completarse o no completarse. Si falla cualquier parte, el sistema realiza una **reversión** de toda la transacción, garantizando que no existan actualizaciones parciales.
 
 **Ejemplo**: En una transferencia bancaria, la atomicidad garantiza que el débito en la cuenta A y el crédito en la cuenta B ocurran juntos. Si el sistema falla entre ambas operaciones, se revierte todo — nunca quedará dinero "en el aire".
 
@@ -32,7 +32,7 @@ La consistencia garantiza que una transacción lleve a la base de datos de un **
 | Paso 1: Débito cuenta A | $2.000 | $4.000 | $6.000 | ❌ Inválido (estado intermedio) |
 | Paso 2: Crédito cuenta B | $2.000 | $5.000 | $7.000 | ✅ Válido |
 
-Si el sistema falla en el Paso 1, la **Atomicidad** hace rollback al estado inicial ($3.000/$4.000), preservando la **Consistencia** (Suma Total = $7.000).
+Si el sistema falla en el Paso 1, la **Atomicidad** hace una reversión al estado inicial ($3.000/$4.000), preservando la **Consistencia** (Suma Total = $7.000).
 
 ---
 
@@ -48,36 +48,36 @@ Sin aislamiento, pueden ocurrir los siguientes fenómenos:
 
 | Fenómeno | Descripción | Ejemplo |
 |----------|-------------|---------|
-| **Dirty Read** | Leer datos que otra transacción aún no ha confirmado | Ver un saldo modificado antes de que el pago se confirme |
-| **Non-Repeatable Read** | La misma consulta devuelve resultados distintos dentro de la misma transacción | Leer el saldo, otra transacción lo modifica, volver a leerlo y obtener otro valor |
-| **Phantom Read** | Aparecen o desaparecen filas entre dos consultas de la misma transacción | Contar los pedidos pendientes dos veces y obtener números distintos |
+| **Lectura sucia** | Leer datos que otra transacción aún no ha confirmado | Ver un saldo modificado antes de que el pago se confirme |
+| **Lectura no repetible** | La misma consulta devuelve resultados distintos dentro de la misma transacción | Leer el saldo, otra transacción lo modifica, volver a leerlo y obtener otro valor |
+| **Lectura fantasma** | Aparecen o desaparecen filas entre dos consultas de la misma transacción | Contar los pedidos pendientes dos veces y obtener números distintos |
 
 ### Niveles de aislamiento
 
-Las bases de datos ofrecen distintos niveles de aislamiento. Mayor aislamiento = mayor seguridad, pero menor rendimiento.
+Las bases de datos ofrecen distintos niveles de aislamiento. A mayor aislamiento, mayor seguridad pero menor rendimiento.
 
-| Nivel | Dirty Read | Non-Repeatable Read | Phantom Read |
-|-------|------------|---------------------|--------------|
-| **Read Uncommitted** | ✅ Posible | ✅ Posible | ✅ Posible |
-| **Read Committed** | ❌ Bloqueado | ✅ Posible | ✅ Posible |
-| **Repeatable Read** | ❌ Bloqueado | ❌ Bloqueado | ✅ Posible |
+| Nivel | Lectura sucia | Lectura no repetible | Lectura fantasma |
+|-------|--------------|----------------------|------------------|
+| **Lectura no confirmada** | ✅ Posible | ✅ Posible | ✅ Posible |
+| **Lectura confirmada** | ❌ Bloqueado | ✅ Posible | ✅ Posible |
+| **Lectura repetible** | ❌ Bloqueado | ❌ Bloqueado | ✅ Posible |
 | **Serializable** | ❌ Bloqueado | ❌ Bloqueado | ❌ Bloqueado |
 
-> La mayoría de las bases de datos usan **Read Committed** por defecto (PostgreSQL, Oracle, SQL Server). MySQL InnoDB usa **Repeatable Read**.
+> La mayoría de las bases de datos usan **Lectura confirmada** por defecto (PostgreSQL, Oracle, SQL Server). MySQL InnoDB usa **Lectura repetible**.
 
 ---
 
 ## Durabilidad
 
-La durabilidad garantiza que una vez que una transacción ha sido **confirmada (committed)**, los datos persisten de forma permanente, incluso ante fallos del sistema como cortes de luz, caídas del servidor o errores de hardware.
+La durabilidad garantiza que una vez que una transacción ha sido **confirmada**, los datos persisten de forma permanente, incluso ante fallos del sistema como cortes de luz, caídas del servidor o errores de hardware.
 
 Los mecanismos que hacen posible la durabilidad son:
 
-- **WAL (Write-Ahead Log)**: Antes de escribir en disco, la base de datos registra la operación en un log. Si el sistema cae, puede reproducir el log para recuperar el estado correcto.
-- **Replicación**: Los datos se copian a uno o varios servidores secundarios. Si el primario falla, los datos no se pierden.
-- **Checkpoints**: La base de datos escribe el estado en disco periódicamente para reducir el tiempo de recuperación.
+- **Registro anticipado (WAL - Write-Ahead Log)**: Antes de escribir en disco, la base de datos registra la operación en un histórico. Si el sistema cae, puede reproducir ese histórico para recuperar el estado correcto.
+- **Replicación**: Los datos se copian a uno o varios servidores secundarios. Si el principal falla, los datos no se pierden.
+- **Puntos de control**: La base de datos escribe el estado en disco periódicamente para reducir el tiempo de recuperación ante fallos.
 
-**Ejemplo**: Si un banco confirma una transferencia y el servidor se apaga un segundo después, cuando el sistema vuelva a estar en línea, la transferencia seguirá registrada. El cliente nunca perderá su dinero por un fallo técnico.
+**Ejemplo**: Si un banco confirma una transferencia y el servidor se apaga un segundo después, cuando el sistema vuelva a estar en línea la transferencia seguirá registrada. El cliente nunca perderá su dinero por un fallo técnico.
 
 ---
 
@@ -85,9 +85,9 @@ Los mecanismos que hacen posible la durabilidad son:
 
 | Propiedad | Pregunta que responde | Mecanismo clave |
 |-----------|-----------------------|-----------------|
-| **Atomicidad** | ¿Todo o nada? | Rollback |
+| **Atomicidad** | ¿Todo o nada? | Reversión |
 | **Consistencia** | ¿El estado es válido antes y después? | Restricciones + Atomicidad |
-| **Aislamiento** | ¿Las transacciones paralelas se interfieren? | Locks, MVCC |
-| **Durabilidad** | ¿Los datos sobreviven a un fallo? | WAL, replicación |
+| **Aislamiento** | ¿Las transacciones paralelas se interfieren? | Bloqueos, Control de concurrencia multiversión |
+| **Durabilidad** | ¿Los datos sobreviven a un fallo? | Registro anticipado, replicación |
 
-> **MVCC (Multi-Version Concurrency Control)**: Técnica usada por PostgreSQL y otros motores para lograr aislamiento sin bloquear lecturas. Cada transacción ve una "fotografía" (snapshot) consistente de los datos en el momento en que comenzó.
+> **Control de concurrencia multiversión (MVCC)**: Técnica usada por PostgreSQL y otros motores para lograr aislamiento sin bloquear lecturas. Cada transacción ve una instantánea consistente de los datos en el momento en que comenzó.
